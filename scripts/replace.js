@@ -9,6 +9,20 @@ function replaceText(node) {
             /\bComputer Sciece\b/gi,
             "HOMELESS SCIENCE"
         );
+        node.textContent = node.textContent.replace(/\bedging\b/gi, "JELQING");
+        node.textContent = node.textContent.replace(
+            /\bhandsome\b/gi,
+            "GIGACHAD"
+        );
+        node.textContent = node.textContent.replace(
+            /\bprojector\b/gi,
+            "DIDDY LIGHTER"
+        );
+        node.textContent = node.textContent.replace(/\bstupid\b/gi, "MONKEY");
+        node.textContent = node.textContent.replace(
+            /\btrouble\b/gi,
+            "THE THICK OF IT"
+        );
         node.textContent = node.textContent.replace(
             /\bmath\b/gi,
             "SMELLY SCIENCE"
