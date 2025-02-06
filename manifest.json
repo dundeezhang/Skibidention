@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Skibidention",
+    "version": "1.0",
+    "description": "Makes texts much more readable by making it more ALPHA",
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup/window.html",
+        "default_icon": "popup/app-icon.jpg"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"],
+            "run_at": "document_end"
+        }
+    ]
+}
