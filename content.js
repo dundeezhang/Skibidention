@@ -27,14 +27,6 @@ function replaceText(node) {
             "BING QILLING"
         );
         node.textContent = node.textContent.replace(/\bthe\b/gi, "SIGMA");
-        node.textContent = node.textContent.replace(/\bthe\b/gi, "SIGMA");
-        node.textContent = node.textContent.replace(/\bthe\b/gi, "SIGMA");
-        node.textContent = node.textContent.replace(/\bthe\b/gi, "SIGMA");
-        node.textContent = node.textContent.replace(/\bthe\b/gi, "SIGMA");
-        node.textContent = node.textContent.replace(/\bthe\b/gi, "SIGMA");
-        node.textContent = node.textContent.replace(/\bthe\b/gi, "SIGMA");
-        node.textContent = node.textContent.replace(/\bthe\b/gi, "SIGMA");
-        node.textContent = node.textContent.replace(/\bthe\b/gi, "SIGMA");
     } else {
         node.childNodes.forEach(replaceText);
     }
