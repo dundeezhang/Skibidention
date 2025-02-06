@@ -1,3 +1,3 @@
 chrome.runtime.onInstalled.addListener(() => {
-    console.log("The to SIGMA Replacer installed.");
+    console.log("Skibidention is now running :). Welcome to the club.");
 });
