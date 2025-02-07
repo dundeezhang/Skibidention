@@ -41,7 +41,10 @@ function replaceText(node) {
             "OHIO LAND"
         );
         node.textContent = node.textContent.replace(/\bUSA\b/gi, "OHIO LAND");
-        node.textContent = node.textContent.replace(/\bU.S.\b/gi, "OHIO LAND");
+        node.textContent = node.textContent.replace(
+            /\bU.S. \b/gi,
+            "OHIO LAND "
+        );
         node.textContent = node.textContent.replace(
             /\bChina\b/gi,
             "TIANANMEN SQUARE"
@@ -151,10 +154,63 @@ function replaceText(node) {
         );
         node.textContent = node.textContent.replace(/\bsad\b/gi, "WOMP WOMP");
         node.textContent = node.textContent.replace(/\bfor real\b/gi, "ON GOD");
+        node.textContent = node.textContent.replace(/\bcrash\b/gi, "UNSTONKS");
+        node.textContent = node.textContent.replace(
+            /\bincrease\b/gi,
+            "UPSTONKS"
+        );
+        node.textContent = node.textContent.replace(
+            /\bJAPANESE\b/gi,
+            "HELLO KITTY FEMBOYS"
+        );
+        node.textContent = node.textContent.replace(
+            /\bJAPAN\b/gi,
+            "KONICHIWA LAND"
+        );
+        node.textContent = node.textContent.replace(
+            /\bcanadian\b/gi,
+            "SORRY PEOPLES"
+        );
+        node.textContent = node.textContent.replace(/\bamerican\b/gi, "OBESE");
+        node.textContent = node.textContent.replace(
+            /\bamericans\b/gi,
+            "OBESES"
+        );
+        node.textContent = node.textContent.replace(
+            /\bbattle\b/gi,
+            "SKIBIDI BRAWL"
+        );
+        node.textContent = node.textContent.replace(
+            /\bbattles\b/gi,
+            "SKIBIDI BRAWLS"
+        );
         node.textContent = node.textContent.replace(
             /\bterrorist\b/gi,
             "BIN LADEN"
         );
+        node.textContent = node.textContent.replace(
+            /\bcrashes\b/gi,
+            "UNSTONKS"
+        );
+        node.textContent = node.textContent.replace(
+            /\bcrashes\b/gi,
+            "UNSTONKS"
+        );
+        node.textContent = node.textContent.replace(/\bshoot\b/gi, "PEW PEW");
+        node.textContent = node.textContent.replace(
+            /\bshooting\b/gi,
+            "PEW PEWING"
+        );
+        node.textContent = node.textContent.replace(/\bshot\b/gi, "PEW POW");
+        node.textContent = node.textContent.replace(
+            /\bhave been\b/gi,
+            "HAVE SKIBIDI"
+        );
+        node.textContent = node.textContent.replace(/\bhave\b/gi, "COP");
+        node.textContent = node.textContent.replace(/\bwomen\b/gi, "HUZZ");
+        node.textContent = node.textContent.replace(/\bgirl\b/gi, "HUZZ");
+        node.textContent = node.textContent.replace(/\bbrother\b/gi, "BRUZZ");
+        node.textContent = node.textContent.replace(/\bbro\b/gi, "BRUZZ");
     } else {
         node.childNodes.forEach(replaceText);
     }
